@@ -24,13 +24,17 @@ The following AI tools are used in the repository:
 ## Motivation
 
 `PromptStack` was created to show that anyone can build a full-stack web application with the right AI tools. While reading the prompts for the
-different files, you will explore well-known prompting techniques that make any developer's life easier. As you progress through the files, you
-will get a good understanding of how modern full-stack developers can use AI in their daily work.
+different files, you will explore well-known prompting techniques that make any developer's life easier.
+
+As you progress through the files, you will get a good understanding of how modern full-stack developers can use AI in their daily work.
 
 ## How to use the repo?
 
 The repository contains a backend and a frontend. No config file must be changed. You only have to generate code, text, or images. Each file has a
-correspondent `.prompt` file next to it. For example, to generate the implementation of `app.ts`, you have to look for the steps in `app.ts.prompt`.
+correspondent `.prompt` file next to it.
+
+For example, to generate the implementation of `app.ts`, you have to look for the steps in `app.ts.prompt`.
+
 The `.prompt` file will contain a prompt (or multiple prompts) and an explanation about what to do with it. It will explain what tool you should put
 the prompt into, and what to do with the result you received.
 
@@ -54,7 +58,8 @@ Prompt:
 
 > [!IMPORTANT]
 > Here's a pro tip: To get the most out of this repository, don't just blindly follow the instructions and copy-paste everything into the files. Read
-> the prompts first thoroughly, think about why they will work, try to guess what the tools will generate, and finally, let them generate the thing.
+> the prompts first thoroughly, think about why they will work, try to guess what the tools will generate, and finally, let them generate what they
+> have to.
 
 ## Quick Start
 
