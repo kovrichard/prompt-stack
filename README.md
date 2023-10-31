@@ -5,12 +5,11 @@ Full-Stack application from Prompts 📄➡️🌐
 
 ## Introduction
 
-`PromptStack` is a full-stack application without the code that implements it. Each file is in the place where it needs to be, but instead of code,
-they contain prompts for various AI tools that you need to use to generate the implementation. The config files are already filled with the
-required settings, so you can focus on the part that truly matters: the implementation.
+`PromptStack` is a full-stack application without the code that implements it. Each file is where it needs to be, but instead of code, they are mostly
+empty and have a corresponding `.prompt` file next to them containing instructions about how to implement the code. The config files are already
+filled with the required settings, so you can focus on the part that truly matters: the implementation.
 
-Since almost no code is written in `PromptStack`, every user will get a slightly different implementation because of the probabilistic nature of
-AI tools.
+Since `PromptStack` contains almost no code, every user will get a slightly different implementation because of the probabilistic nature of AI tools.
 
 The following AI tools are used in the repository:
 - [ChatGPT](https://chat.openai.com/) with a Plus subscription
