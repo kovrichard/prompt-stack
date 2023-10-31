@@ -60,9 +60,10 @@ Prompt:
 > the prompts first thoroughly, think about why they will work, try to guess what the tools will generate, and finally, let them generate what they
 > have to.
 
-`PromptStack` requires coding knowledge. While the prompts were carefully crafted to work most of the time, there is no guarantee that what you
-receive will be copy-pastable. It's your responsibility to double-check the result and ensure it works. It is no different than using any AI tool
-during your work.
+> [!WARNING]
+> `PromptStack` requires coding knowledge. While the prompts were carefully crafted to work most of the time, there is no guarantee that what you
+> receive will be copy-pastable. It's your responsibility to double-check the result and ensure it works. It is no different than using any AI tool
+> during your work.
 
 ## Quick Start
 
