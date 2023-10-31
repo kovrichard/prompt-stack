@@ -14,8 +14,9 @@ AI tools.
 
 ## Motivation
 
-`PromptStack` was created to show that anyone can build a full-stack web application with the right AI tools. During reading the prompts for the
-different files, you will explore various well-known prompting techniques that make any developer's life easier.
+`PromptStack` was created to show that anyone can build a full-stack web application with the right AI tools. While reading the prompts for the
+different files, you will explore well-known prompting techniques that make any developer's life easier. As you progress through the files, you
+will get a good understanding of how modern full-stack developers can use AI in their daily work.
 
 ## How to use the repo?
 
@@ -41,6 +42,10 @@ Prompt:
 // app is default exported but not listening
 ---
 ```
+
+> [!IMPORTANT]
+> Here's a pro tip: To get the most out of this repository, don't just blindly follow the instructions and copy-paste everything into the files. Read
+> the prompts first thoroughly, think about why they will work, try to guess what the tools will generate, and finally, let them generate the thing.
 
 ## Quick Start
 
@@ -73,6 +78,8 @@ or
 ``` bash
 yarn install
 ```
+> [!NOTE]
+> By default, the application uses `pnpm`. You can use other package managers, but then you also have to care about the correspondent lock files.
 
 ### Implement the code
 
