@@ -9,7 +9,7 @@ Full-Stack application from Prompts 📄➡️🌐
 they contain prompts for various AI tools that you need to use to generate the implementation. The config files are already filled with the
 required settings, so you can focus on the part that truly matters: the implementation.
 
-Since almost no code is written in PromptStack, every user will get a slightly different implementation because of the probabilistic nature of
+Since almost no code is written in `PromptStack`, every user will get a slightly different implementation because of the probabilistic nature of
 AI tools.
 
 ## Motivation
