@@ -1,0 +1,14 @@
+Tool to use: GitHub Copilot
+Task: Copy the content of Prompt into app.ts, then press enter twice. When you receive a completion
+      press Tab to accept it. If you don't receive completions anymore, consider this task complete.
+      Copy everything between the two --- marks.
+      If you don't receive the code, start writing "import".
+Prompt:
+---
+// typescript
+// basic express app with two routes
+// the / returns 'Hello World!' in json 'message' property
+// the /healthcheck returns 'OK' in json 'status' property
+// types are used where possible
+// app is default exported but not listening
+---
