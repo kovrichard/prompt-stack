@@ -127,3 +127,10 @@ Frontend
 cd client
 pnpm test
 ```
+
+## Author
+
+Richard Kovacs
+
+- [GitHub](https://github.com/kovrichard)
+- [X / Twitter](https://twitter.com/rchardkovacs)
