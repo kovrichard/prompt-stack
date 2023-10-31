@@ -5,9 +5,9 @@ Full-Stack application from Prompts 📄➡️🌐
 
 ## Introduction
 
-`PromptStack` is a full-stack application, without the code that implements it. Each file is in the place where it needs to be, but instead of code,
+`PromptStack` is a full-stack application without the code that implements it. Each file is in the place where it needs to be, but instead of code,
 they contain prompts for various AI tools that you need to use to generate the implementation. The config files are already filled with the
-required settings so you can focus on the part that truly matters: the implementation.
+required settings, so you can focus on the part that truly matters: the implementation.
 
 Since almost no code is written in PromptStack, every user will get a slightly different implementation because of the probabilistic nature of
 AI tools.
@@ -19,17 +19,17 @@ different files, you will explore various well-known prompting techniques that m
 
 ## How to use the repo?
 
-The repository contains a backend and a frontend. No config file must be changed, you only have to generate code, text, or images. Each file has a
+The repository contains a backend and a frontend. No config file must be changed. You only have to generate code, text, or images. Each file has a
 correspondent `.prompt` file next to it. For example, to generate the implementation of `app.ts`, you have to look for the steps in `app.ts.prompt`.
-The `.prompt` file will contain a prompt (or multiple prompts) and an explanation about what to do with the it. It will explain what tool you should
-put the prompt into, and what to do with the result you received.
+The `.prompt` file will contain a prompt (or multiple prompts) and an explanation about what to do with it. It will explain what tool you should put
+the prompt into, and what to do with the result you received.
 
 Here is an example `.prompt` file for `app.ts`:
 
 ```
 Tool to use: GitHub Copilot
 Task: Copy the content of Prompt into app.ts, then press Enter twice. When you receive a completion,
-      press Tab to accept it. If you don't receive completions anymore, the this task is finished.
+      press Tab to accept it. If you don't receive completions anymore, then this task is finished.
       Copy everything between the two --- marks.
 Prompt:
 ---
@@ -76,7 +76,7 @@ yarn install
 
 ### Implement the code
 
-Follow to instructions in the `.prompt` files and generate their implementation. Once you feel you are ready, go to the next step.
+Follow the instructions in the `.prompt` files and generate their implementation. Once you feel you are ready, go to the next step.
 
 ### Start the app
 
