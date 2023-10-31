@@ -12,6 +12,15 @@ required settings, so you can focus on the part that truly matters: the implemen
 Since almost no code is written in `PromptStack`, every user will get a slightly different implementation because of the probabilistic nature of
 AI tools.
 
+The following AI tools are used in the repository:
+- [ChatGPT](https://chat.openai.com/) with a Plus subscription
+- [GitHub Copilot](https://github.com/features/copilot)
+- [Midjourney](https://www.midjourney.com/home)
+
+> [!NOTE]
+> Feel free to try other language models, coding assistants, and image generators when using the repository. However, we tested every prompt with only
+> the three tools above, so we cannot guarantee the same success rate when someone uses alternatives.
+
 ## Motivation
 
 `PromptStack` was created to show that anyone can build a full-stack web application with the right AI tools. While reading the prompts for the
