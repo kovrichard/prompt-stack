@@ -1,0 +1,14 @@
+Tool to use: ChatGPT / GPT-4
+Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you.
+      When it is done, copy the generated UI into page.tsx.
+      Copy everything between the two --- marks.
+Prompt:
+---
+Give me a simple but nice minimalistic login page in Next.js.
+Use Tailwind utility classes. The form should have an email and a password field and should be reactive.
+At the bottom, there should be a submit button.
+Also add a link to the registration page at /register, when users don't have an account yet.
+The login request should be POSTed to http://localhost:3001/login using the fetch API.
+Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
+Write only the code, no need for the setup steps.
+---
