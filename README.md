@@ -63,21 +63,20 @@ git clone https://github.com/kovrichard/prompt-stack.git
 
 ### Install dependencies
 
+Backend:
+
 ``` bash
+cd server
 pnpm i
 ```
 
-or
+Frontend:
 
 ``` bash
-npm i
+cd client
+pnpm i
 ```
 
-or
-
-``` bash
-yarn install
-```
 > [!NOTE]
 > By default, the application uses `pnpm`. You can use other package managers, but then you also have to care about the correspondent lock files.
 
@@ -99,3 +98,23 @@ Frontend
 ``` bash
 cd client
 pnpm run dev
+```
+
+### Tests
+
+`PromptStack` contains test files, but they are also empty. Tests also have their `.prompt` files next to them, so if you are interested, you can
+generate test cases and run them with the following commands.
+
+Backend:
+
+``` bash
+cd server
+pnpm test
+```
+
+Frontend
+
+``` bash
+cd client
+pnpm test
+```
