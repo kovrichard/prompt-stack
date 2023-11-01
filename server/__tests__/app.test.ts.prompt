@@ -6,8 +6,13 @@ Task: Copy the content of Prompt into app.ts, then press enter twice. When you r
 Prompt:
 ---
 // typescript
-// test case for the app in src/app.ts
+// test cases for the app in src/app.ts
 // test uses supertest and jest
 // test for / returns 'Hello World!' in json 'message' property
 // test for /healthcheck returns 'OK' in json 'status' property
+// test for /login returns 400 if no email is provided
+// test for /login returns 400 if no password is provided
+// test for /register returns 400 if no email is provided
+// test for /register returns 400 if no password is provided
+// test for /register returns 400 if no name is provided
 ---

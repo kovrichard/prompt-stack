@@ -6,7 +6,7 @@ Task: Copy the content of Prompt into app.ts, then press enter twice. When you r
 Prompt:
 ---
 // typescript
-// basic express app with three routes
+// basic express app with five routes
 // the / returns 'Hello World!' in json 'message' property
 // the /healthcheck returns 'OK' in json 'status' property
 // the /login route is handled by the loginHandler middleware from ./pages/login.ts
