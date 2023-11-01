@@ -142,6 +142,8 @@ cd client
 pnpm test
 ```
 
+You can even try a TDD approach and generate the tests first, then 'implement' the code. The `.prompt` files enable you to do that.
+
 ## Author
 
 Richard Kovacs
