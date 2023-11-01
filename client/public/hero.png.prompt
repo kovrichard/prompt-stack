@@ -1,0 +1,10 @@
+Tool to use: Midjourney
+Task: Copy the content of Prompt into Midjourney and let it generate images.
+      When you have one that you like, upscale it with Midjourney.
+      Download the upscaled image and save it next to this file with the
+      name 'hero.png'.
+      Copy everything between the two --- marks.
+Prompt:
+---
+minimalistic background image for a website landing page, no texts, sharp image --ar 16:9 --v 5.2 --s 750 --style raw
+---
