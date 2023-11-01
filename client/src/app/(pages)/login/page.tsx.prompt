@@ -7,6 +7,8 @@ Prompt:
 Give me a simple but nice minimalistic login page in Next.js.
 Use Tailwind utility classes. The form should have an email and a password field and should be reactive.
 At the bottom, there should be a submit button.
+Using flexbox properties, make sure the page grows to the full available space, but should not push the
+footer out of the screen when the content does not fill the entire page.
 Also add a link to the registration page at /register, when users don't have an account yet.
 The login request should be POSTed to http://localhost:3001/login using the fetch API.
 Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.

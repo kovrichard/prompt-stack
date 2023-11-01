@@ -8,7 +8,8 @@ Give me a simple landing page for my website in Next.js.
 The landing page should contain a horizontal hero image and a text.
 The text should say "PromptStack" and below it "Full-stack application from prompts".
 The image is available at /hero.png. The text should be over the image.
-Use Tailwind utility classes.
+Using flexbox properties, make sure the page grows to occupy as much available space as possible vertically, but should not push the footer out of the screen when the content does not fill the entire page.
+Ensure the page also grows horizontally to the available space.
 Export the component with the name Home.
 Use Typescript types wherever possible.
 Make sure the color of texts is different from the background color.
