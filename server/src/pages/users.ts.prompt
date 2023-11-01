@@ -12,11 +12,13 @@ Prompt:
 // {
 //   "users": [
 //     {
+//       "name": "John Doe",
 //       "email": "john.doe@example.com",
-//       "password": "123456"
+//       "password": "secret"
 //     }
 //   ]
 // }
+// The middleware should not return the password field
 // Use Typescript types everywhere
 // The middleware is default exported with export default
 ---
