@@ -1,4 +1,4 @@
-# prompt-stack
+# PromptStack
 
 Full-Stack application from Prompts 📄➡️🌐
 
