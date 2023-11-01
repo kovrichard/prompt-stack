@@ -6,9 +6,10 @@ Task: Copy the content of Prompt into app.ts, then press enter twice. When you r
 Prompt:
 ---
 // typescript
-// basic express app with two routes
+// basic express app with three routes
 // the / returns 'Hello World!' in json 'message' property
 // the /healthcheck returns 'OK' in json 'status' property
+// the /login route is handled by the loginHandler middleware from ./pages/login.ts
 // CORS is configured to allow requests coming from localhost:3000
 // types are used for req, res, and next
 // app is default exported but not listening

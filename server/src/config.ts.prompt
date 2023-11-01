@@ -1,0 +1,12 @@
+Tool to use: GitHub Copilot
+Task: Copy the content of Prompt into config.ts, then press enter twice. When you receive a completion
+      press Tab to accept it. If you don't receive completions anymore, consider this task complete.
+      Copy everything between the two --- marks.
+      If you don't receive the code, start writing "export".
+Prompt:
+---
+// typescript
+// a config file with a single export called conf
+// conf contains the following environment variables: EMAIL, PASSWORD
+// the EMAIL and PASSWORD environment variables are camelCased on the conf object
+---

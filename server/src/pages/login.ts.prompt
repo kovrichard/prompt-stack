@@ -1,0 +1,14 @@
+Tool to use: GitHub Copilot
+Task: Copy the content of Prompt into login.ts, then press enter twice. When you receive a completion
+      press Tab to accept it. If you don't receive completions anymore, consider this task complete.
+      Copy everything between the two --- marks.
+      If you don't receive the code, start writing "import".
+Prompt:
+---
+// typescript
+// Express middleware called loginHandler to handle POST requests to /login
+// The middleware checks if the email and password are valid
+// email and password should be checked against ../config.ts
+// If valid, the middleware returns true
+// The middleware is default exported
+---
