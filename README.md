@@ -9,7 +9,12 @@ Full-Stack application from Prompts 📄➡️🌐
 empty and have a corresponding `.prompt` file next to them containing instructions about how to implement the code. The config files are already
 filled with the required settings, so you can focus on the part that truly matters: the implementation.
 
-Since `PromptStack` contains almost no code, every user will get a slightly different implementation because of the probabilistic nature of AI tools.
+You might ask the question, why don't we use AI for the config files as well? The answer is simple: it does not make the process faster.
+Linters, CSS frameworks, and ORMs usually have a `--init` setting, which prefills the config files with the most common settings. It is much faster to
+use these built-in solutions than to generate them with AI tools.
+
+But, this is not the case for the code, which varies project by project. In this regard, `PromptStack` is even more unique. Since `PromptStack`
+contains almost no code, every user will get a slightly different implementation because of the probabilistic nature of AI tools.
 
 The following AI tools are used in the repository:
 - [ChatGPT](https://chat.openai.com/) with a Plus subscription
