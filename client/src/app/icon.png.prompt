@@ -6,5 +6,5 @@ Task: Copy the content of Prompt into Midjourney and let it generate images.
       Copy everything between the two --- marks.
 Prompt:
 ---
-minimalistic icon for an automatically generated website, no texts, sharp image --v 5.2 --s 750 --style raw
+minimalistic logo for an automatically generated website, no texts, sharp image --v 5.2 --s 750 --style raw
 ---
