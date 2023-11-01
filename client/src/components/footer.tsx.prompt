@@ -4,7 +4,8 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
       Copy everything between the two --- marks.
 Prompt:
 ---
-Give me a simple but nice minimalistic footer in Next.js.
+You are an expert Next.js developer.
+Give me a well-designed footer component.
 Use Tailwind utility classes. The footer should contain the following text in the middle: "Copyright @ <current-year> PromptStack. All rights reserved.".
 <current-year> should be replaced with the current year dynamically.
 The height of the footer should be 3.5 rem.

@@ -4,10 +4,13 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
       Copy everything between the two --- marks.
 Prompt:
 ---
+You are an expert Next.js developer.
 Give me a good looking register page in Next.js.
 Use Material UI components and Tailwind utility classes where needed.
 The form should have a name, email, and a password field and should be reactive.
 At the bottom, there should be a submit button.
+Give a card like look to the form and some vibrant color to the card.
+Only design the card. The column layout already has background color.
 Using flexbox properties, ensure the page grows to the full available space, but not more.
 It should not push the footer out of the screen when the content does not fill the entire page.
 Also add a link to the login page at /login, when users already have an account.
