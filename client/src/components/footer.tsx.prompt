@@ -1,0 +1,14 @@
+Tool to use: ChatGPT / GPT-4
+Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you.
+      When it is done, copy the generated UI into footer.tsx.
+      Copy everything between the two --- marks.
+Prompt:
+---
+Give me a simple but nice minimalistic footer in Next.js.
+Use Tailwind utility classes. The footer should contain the following text in the middle: "Copyright @ <current-year> PromptStack. All rights reserved.".
+<current-year> should be replaced with the current year dynamically.
+The height of the footer should be 3.5 rem.
+Export the component with the name Footer.
+Make sure the color of texts is different from the background color.
+Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
+---
