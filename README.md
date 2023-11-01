@@ -144,6 +144,12 @@ pnpm test
 
 You can even try a TDD approach and generate the tests first, then 'implement' the code. The `.prompt` files enable you to do that.
 
+## Showcase
+
+Here is a potential result you can get with `PromptStack`:
+
+![Landing page](./images/prompt-stack-landing-page-1.png)
+
 ## Author
 
 Richard Kovacs
