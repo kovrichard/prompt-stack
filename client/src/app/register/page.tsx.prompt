@@ -10,5 +10,6 @@ At the bottom, there should be a submit button.
 Also add a link to the login page at /login, when users already have an account.
 The register request should be POSTed to http://localhost:3001/register using the fetch API.
 Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
-Write only the code, no need for the setup steps.
+Make sure the color of texts is different from the background color.
+Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---
