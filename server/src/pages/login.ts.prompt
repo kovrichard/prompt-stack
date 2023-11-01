@@ -7,8 +7,19 @@ Prompt:
 ---
 // typescript
 // Express middleware called loginHandler to handle POST requests to /login
-// The middleware checks if the email and password are valid
-// email and password should be checked against ../config.ts
-// If valid, the middleware returns true
+// The middleware checks if the email and password are in the request body
+// If yes, the middleware returns with a 200 status code and { message: "Login successful" }
+// If no, the middleware returns with a 400 status code and { message: "Invalid email or password" }
+// Users are stored in ./users.json in the following format:
+// {
+//   "users": [
+//     {
+//       "email": "john.doe@example.com",
+//       "password": "123456"
+//     }
+//   ]
+// }
+// The middleware checks the incoming email and password against the users in the file
+// Use Typescript types everywhere
 // The middleware is default exported
 ---

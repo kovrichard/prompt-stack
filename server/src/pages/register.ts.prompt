@@ -1,0 +1,27 @@
+Tool to use: GitHub Copilot
+Task: Copy the content of Prompt into register.ts, then press enter twice. When you receive a completion
+      press Tab to accept it. If you don't receive completions anymore, consider this task complete.
+      Copy everything between the two --- marks.
+      If you don't receive the code, start writing "import".
+Prompt:
+---
+// typescript
+// Express middleware called registerHandler to handle POST requests to /register
+// The middleware checks if the name, email and password are in the request body
+// If yes, the middleware returns with a 200 status code and { message: 'User created' }
+// If something is missing, the middleware returns with a 400 status code and { message: 'Missing name, email or password' }
+// The middleware saves the name, email and password to a file called ./users.json in the following format:
+// {
+//   "users": [
+//     {
+//       "name": "John Doe",
+//       "email": "john.doe@example",
+//       "password": "123456"
+//     }
+//   ]
+// }
+// The middleware checks for the existence of the users.json file and creates it if it doesn't exist
+// The middleware does not save already existing users but returns with a 400 status code and { message: 'User already exists' }
+// Use Typescript types everywhere
+// The middleware is default exported
+---
