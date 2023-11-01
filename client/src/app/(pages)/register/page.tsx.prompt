@@ -20,6 +20,7 @@ If the response is 400, show a red MUI alert for 2 seconds on the bottom with th
 The alerts should NOT cause a layout shift when revealed. 
 NOTE: Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
 NOTE: useRouter must be imported from 'next/navigation' in Next.js 14. Example:
-import { useRouter } from 'next/navigation';ake sure the color of texts is different from the background color.
+import { useRouter } from 'next/navigation';
+Make sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---

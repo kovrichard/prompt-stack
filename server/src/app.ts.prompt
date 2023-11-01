@@ -11,7 +11,9 @@ Prompt:
 // the /healthcheck returns 'OK' in json 'status' property
 // the /login route is handled by the loginHandler middleware from ./pages/login.ts
 // the /register route is handled by the registerHandler middleware from ./pages/register.ts
+// the /users GET route is handled by the usersHandler middleware from ./pages/users.ts
 // CORS is configured to allow requests coming from localhost:3000
+// Requests are coming in JSON format
 // types are used for req, res, and next
 // app is default exported but not listening
 ---

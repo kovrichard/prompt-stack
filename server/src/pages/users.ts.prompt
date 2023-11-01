@@ -1,15 +1,13 @@
 Tool to use: GitHub Copilot
-Task: Copy the content of Prompt into login.ts, then press enter twice. When you receive a completion
+Task: Copy the content of Prompt into users.ts, then press enter twice. When you receive a completion
       press Tab to accept it. If you don't receive completions anymore, consider this task complete.
       Copy everything between the two --- marks.
       If you don't receive the code, start writing "import".
 Prompt:
 ---
 // typescript
-// Express middleware called loginHandler to handle POST requests to /login
-// The middleware checks if the email and password are in the request body
-// If yes, the middleware returns with a 200 status code and { message: "Login successful" }
-// If no, the middleware returns with a 400 status code and { message: "Invalid email or password" }
+// Express middleware called usersHandler to handle GET requests to /users
+// The middleware should return a list of users in JSON format in response body under the key "users"
 // Users are stored in ./users.json in the following format:
 // {
 //   "users": [
@@ -19,7 +17,6 @@ Prompt:
 //     }
 //   ]
 // }
-// The middleware checks the incoming email and password against the users in the file
 // Use Typescript types everywhere
 // The middleware is default exported with export default
 ---

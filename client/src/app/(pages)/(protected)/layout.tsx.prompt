@@ -1,0 +1,17 @@
+Tool to use: ChatGPT / GPT-4
+Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you.
+      When it is done, copy the generated UI into layout.tsx.
+      Copy everything between the two --- marks.
+Prompt:
+---
+You are an expert Next.js developer.
+Give me a wrapper component that wraps its children.
+This component guards the protected routes.
+Before loading the child, it checks whether the localStorage item 'session' is 'true'.
+If yes, it loads the page, but if not, it redirects to /login.
+NOTE: Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
+NOTE: useRouter must be imported from 'next/navigation' in Next.js 14. Example:
+import { useRouter } from 'next/navigation';
+Default export the component as Layout.
+Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
+---

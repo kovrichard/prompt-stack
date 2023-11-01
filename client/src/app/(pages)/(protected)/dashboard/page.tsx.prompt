@@ -1,0 +1,22 @@
+Tool to use: ChatGPT / GPT-4
+Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you.
+      When it is done, copy the generated UI into page.tsx.
+      Copy everything between the two --- marks.
+Prompt:
+---
+You are an expert Next.js developer.
+Give me a Dashboard page in Next.js.
+The dashboard should fetch data from the backend located at http://localhost:3001/users.
+The dashboard should display the data in the middle. The data will be under the 'users' key in the response body.
+Use Material UI and Tailwind utility classes where needed.
+Use flex-1 instead h-screen to ensure the page grows to the full available space, but not more.
+The data coming from the backend has the following format:
+[
+      {
+            "name": "John Doe",
+            "email": "john@doe.com",
+      }
+]
+Make sure the color of texts is different from the background color.
+Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
+---
