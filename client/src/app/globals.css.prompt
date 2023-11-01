@@ -1,0 +1,10 @@
+Tool to use: ChatGPT / GPT-4
+Task: By default, Next.js generates the existing globals.css, but you can modify to your needs.
+      Copy the entire contents of the file and paste it into ChatGPT. Then write the contents
+      of Prompt below it. Replace the original content of globals.css with the generated content.
+      Copy everything between the two --- marks.
+Prompt:
+---
+This a globals.css of my Next.js application. Give an awesome-looking playful design to it by changing these parameters.
+No need to introduce new ones. Do not write the setup steps and do not explain the code. The result must be copy-paste ready.
+---
