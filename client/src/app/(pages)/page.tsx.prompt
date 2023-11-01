@@ -4,14 +4,16 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
       Copy everything between the two --- marks.
 Prompt:
 ---
-Give me a simple landing page for my website in Next.js.
-The landing page should contain a horizontal hero image and a text.
+You are an expert Next.js developer.
+Give me a well-designed landing page using Tailwind utility classes.
+The page should contain a horizontal hero image and a text over it.
 The text should say "PromptStack" and below it "Full-stack application from prompts".
-The image is available at /hero.png. The text should be over the image.
-Using flexbox properties, make sure the page grows to occupy as much available space as possible vertically, but should not push the footer out of the screen when the content does not fill the entire page.
-Ensure the page also grows horizontally to the available space.
+The image is available at '/hero.png'.
+The image should have a rounded border and centered.
+Do not give a background to anything. The site already has one.
+Do not push the page down since the Navbar is sticked to the top and is floating above it.
+Use flexbox properties grow to the screen.
 Export the component with the name Home.
-Use Typescript types wherever possible.
 Make sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---
