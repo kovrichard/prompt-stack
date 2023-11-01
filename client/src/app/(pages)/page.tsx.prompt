@@ -12,7 +12,7 @@ The image is available at '/hero.png'.
 The image should have a rounded border and centered.
 Do not give a background to anything. The site already has one.
 Do not push the page down since the Navbar is sticked to the top and is floating above it.
-Use flexbox properties grow to the screen.
+Use flex-1 instead of h-screen grow to the screen vertically.
 Export the component with the name Home.
 Make sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
