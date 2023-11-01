@@ -9,6 +9,7 @@ Design me a beautiful navbar component that has rounded corners and is sticked i
 Add a maximum width to the navbar, push it down a bit.
 Add an icon on the left pointing to '/icon.png'.
 Add a link in the center pointing to '/' and named as Home.
+Add a link next to it pointing to '/dashboard' but only if the 'session' item in the localStorage is set to 'true'.
 Finally, add a link on the right pointing to /login and named as Login.
 The link styles are consistent.
 Do not use <a> in <Link> components since it is deprecated in the latest version.
