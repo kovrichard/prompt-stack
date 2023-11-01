@@ -5,17 +5,21 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
 Prompt:
 ---
 You are an expert Next.js developer.
-Give me a good looking register page in Next.js.
+Give me a well-designed register page in Next.js.
 Use Material UI components and Tailwind utility classes where needed.
 The form should have a name, email, and a password field and should be reactive.
 At the bottom, there should be a submit button.
-Give a card like look to the form and some vibrant color to the card.
+Give a card-like look to the form and some vibrant color gradient to the card.
 Only design the card. The column layout already has background color.
-Using flexbox properties, ensure the page grows to the full available space, but not more.
+Use flex-1 instead h-screen to ensure the page grows to the full available space, but not more.
 It should not push the footer out of the screen when the content does not fill the entire page.
 Also add a link to the login page at /login, when users already have an account.
 The register request should be POSTed to http://localhost:3001/register using the fetch API.
-Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
-Make sure the color of texts is different from the background color.
+If the response is 200, show a green MUI alert on the bottom with the response.body.message.
+If the response is 400, show a red MUI alert for 2 seconds on the bottom with the response.body.message.
+The alerts should NOT cause a layout shift when revealed. 
+NOTE: Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
+NOTE: useRouter must be imported from 'next/navigation' in Next.js 14. Example:
+import { useRouter } from 'next/navigation';ake sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---

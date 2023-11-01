@@ -5,17 +5,24 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
 Prompt:
 ---
 You are an expert Next.js developer.
-Give me a good looking login page in Next.js.
+Give me a well-designed login page in Next.js.
 Use Material UI components and Tailwind utility classes where needed.
 The form should have an email and a password field and should be reactive.
 At the bottom, there should be a submit button.
-Give a card like look to the form and some vibrant color to the card.
-Only design the card. The column layout already has background color.
-Using flexbox properties, ensure the page grows to the full available space, but not more.
+Give a card-like look to the form and some vibrant color gradient to the card.
+Only add color to the card. The column layout already has background color.
+Use flex-1 instead h-screen to ensure the page grows to the full available space, but not more.
 It should not push the footer out of the screen when the content does not fill the entire page.
 Also add a link to the registration page at /register, when users don't have an account yet.
 The login request should be POSTed to http://localhost:3001/login using the fetch API.
-Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
+If the response is 200, show a green MUI alert on the bottom with the response.body.message.
+Also set a localStorage item with key 'session' and value 'true'.
+After 1 sec, redirect to /dashboard.
+If the response is 400, show a red MUI alert for 2 seconds on the bottom with the response.body.message.
+The alerts should NOT cause a layout shift when revealed. 
+NOTE: Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
+NOTE: useRouter must be imported from 'next/navigation' in Next.js 14. Example:
+import { useRouter } from 'next/navigation';
 Make sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---

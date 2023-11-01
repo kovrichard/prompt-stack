@@ -6,13 +6,12 @@ Prompt:
 ---
 You are an expert Next.js developer.
 Give me a wrapper layout that wraps its children and adds the navbar at the top and the footer at the bottom.
-Using flexbox properties, make sure the Navbar is always visible, even when scrolling, but the Footer is
-only visible when the user has scrolled to the bottom of the page or when the content is not big enough to
-fill the screen.
+Using flex-1, make sure the Footer is only visible when the user has scrolled
+to the bottom of the page or when the content is not big enough to fill the screen.
 Import the Navbar component from '@/components/navbar'.
 Import the Footer component from '@/components/footer'.
 Make sure the children are centered horizontally and vertically and can grow to fill the layout.
-The height of the navbar and the footer is 3.5 rem. These are already set in the components.
+Do not push the children down because of the Navbar. The Navbar floats above everything.
 Use Tailwind utility classes.
 Export the component with the name Layout.
 Use Typescript types wherever possible.
