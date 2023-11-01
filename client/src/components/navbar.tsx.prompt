@@ -5,11 +5,12 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
 Prompt:
 ---
 You are an expert Next.js developer.
-Design me a beautiful navbar component that has rounded corners and is sticked in the top center of the website.
-Add a maximum width to the navbar, push it down a bit.
+Design me a beautiful navbar component that has rounded corners and is stuck in the top center of the website.
+Add a maximum width to the navbar, and push it down a bit.
 Add an icon on the left pointing to '/icon.png'.
 Add a link in the center pointing to '/' and named as Home.
-Add a link next to it pointing to '/dashboard' but only if the 'session' item in the localStorage is set to 'true'.
+Add a link next to it pointing to '/dashboard' and named Dashboard but only if the 'session' item in the localStorage is set to 'true'.
+Put some gap between them.
 Finally, add a link on the right pointing to /login and named as Login.
 The link styles are consistent.
 Do not use <a> in <Link> components since it is deprecated in the latest version.
