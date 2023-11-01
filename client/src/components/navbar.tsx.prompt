@@ -5,12 +5,13 @@ Task: Copy the content of Prompt into ChatGPT and let it generate the UI for you
 Prompt:
 ---
 Give me a simple but nice minimalistic navbar in Next.js.
-Use Tailwind utility classes. The navbar should have two links: one to / named Home, and another one to /login named Login.
+Use Material UI and Tailwind utility classes where required. The navbar should have two links: one to / named Home, and another one to /login named Login.
 The navbar should be sticked to the top. On large screens, Home should be in the center, and Login should be on the right.
 The file named '/icon.png' should be used as the logo on the left side of the navbar.
+For icons, use @mui/icons-material.
 The height of the navbar should be 3.5 rem.
 Make the navbar responsive. On mobile, the logo should be hidden, and the links should be stacked vertically.
-Also, a hamburger icon should be shown on the right side of the navbar. When the hamburger icon is clicked, the links should be shown.
+Also, a hamburger icon should be shown on the right side of the navbar. When the hamburger icon is clicked, the links should be shown vertically.
 Export the component with the name Navbar.
 Don't use <a> in <Link> tags. It is invalid syntax in the newest version of Next.js.
 Make sure the color of texts is different from the background color.
