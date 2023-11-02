@@ -9,7 +9,7 @@ Give me a well-designed login page in Next.js.
 Use Material UI components and Tailwind utility classes where needed.
 The form should have an email and a password field and should be reactive.
 At the bottom, there should be a submit button.
-Give a card-like look to the form and some vibrant color gradient to the card.
+Give a card-like look to the form and some vibrant cold color gradient to the card.
 Only add color to the card. The column layout already has background color.
 Use flex-1 instead h-screen to ensure the page grows to the full available space, but not more.
 It should not push the footer out of the screen when the content does not fill the entire page.

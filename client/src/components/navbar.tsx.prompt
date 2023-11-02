@@ -6,8 +6,8 @@ Prompt:
 ---
 You are an expert Next.js developer.
 Design me a beautiful navbar component that has rounded corners and is stuck in the top center of the website.
-Add a maximum width to the navbar, and push it down a bit.
-Add an icon on the left pointing to '/icon.png'.
+Add a maximum width to the navbar, and push it down a bit. Use sticky positioning.
+Add an icon on the left pointing to '/icon.png'. It should navigate to /.
 Add a link in the center pointing to '/' and named as Home.
 Add a link next to it pointing to '/dashboard' and named Dashboard but only if the 'session' item in the localStorage is set to 'true'.
 Put some gap between them.

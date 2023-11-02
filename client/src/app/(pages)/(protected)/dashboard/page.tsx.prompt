@@ -9,6 +9,7 @@ Give me a Dashboard page in Next.js.
 The dashboard should fetch data from the backend located at http://localhost:3001/users.
 The dashboard should display the data in the middle. The data will be under the 'users' key in the response body.
 Use Material UI and Tailwind utility classes where needed.
+Icons are in '@mui/icons-material', components are in '@mui/material'.
 Use flex-1 instead h-screen to ensure the page grows to the full available space, but not more.
 The data coming from the backend has the following format:
 [
