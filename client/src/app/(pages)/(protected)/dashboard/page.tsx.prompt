@@ -18,6 +18,7 @@ The data coming from the backend has the following format:
             "email": "john@doe.com",
       }
 ]
+Show them in table with columns "Name" and "Email".
 Make sure the color of texts is different from the background color.
 Write only the code, no need for the setup steps and explanation. It must be copy-paste ready.
 ---
