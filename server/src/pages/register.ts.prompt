@@ -24,4 +24,5 @@ Prompt:
 // The middleware does not save already existing users but returns with a 400 status code and { message: 'User already exists' }
 // Use Typescript types everywhere
 // The middleware is default exported with export default
+// The middleware is used in app.ts
 ---

@@ -21,4 +21,5 @@ Prompt:
 // The middleware should not return the password field
 // Use Typescript types everywhere
 // The middleware is default exported with export default
+// The middleware is used in app.ts
 ---
